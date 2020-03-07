@@ -1,7 +1,7 @@
 '''
 @Author: Scy
 @Date: 2020-03-07 15:49:45
-@LastEditTime: 2020-03-07 19:56:39
+@LastEditTime: 2020-03-07 22:29:29
 @LastEditors: Scy
 @Description: 利用tensorboard查看所搭建的CNN结构
 '''
@@ -10,7 +10,7 @@ import tensorflow as tf
 from tensorflow.examples.tutorials.mnist import input_data
 
 
-mnist = input_data.read_data_sets("MNIST_data", one_hot=True)
+mnist = input_data.read_data_sets("F:/Study/CS/TensorFlow/tensorflow_learning/MNIST_data", one_hot=True)
 # 每个批次的大小
 batch_size = 100
 n_batch = mnist.train.num_examples // batch_size
